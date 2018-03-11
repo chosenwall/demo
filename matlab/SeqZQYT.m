@@ -2,7 +2,7 @@ function [ny,y]=SeqZQYT(nx,x,L,k)
 N=length(nx);
 ny=min(nx):k*L+min(nx)-1;
 y=zeros(1,k*L);
-for i=0:k*-1
+for i=0:k*L-1
 		if L==N
 				y(i+1)=x(mod(i,L)+1);
 		end

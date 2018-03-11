@@ -20,8 +20,9 @@ subplot(324),
 stem(ny3,y3,'.');grid;axis([-5 18 -1 15]);
 xlabel('ny3');ylabel('y3(n)');title('周期为7的周期序列');
 subplot(325),
-stem(ny4,y4,'.');grid;axis([-5 25 -1 15]);
+stem(ny4,y4,'.');grid;axis([-5 25 -1 12]);
 xlabel('ny4');ylabel('y4(n)');title('周期为9的周期序列');
 subplot(326),
 stem(ny5,y5,'.');grid;axis([-5 32 -1 12]);
 xlabel('ny5');ylabel('y5(n)');title('周期为12期序列');
+set(gcf,'color','w');
